@@ -23,7 +23,7 @@ def mavenHome = tool name: "maven3.6.3"
     }
     stage('5. Deploy')
     {
-        deploy adapters: [tomcat9(credentialsId: 'Tomcat-Credentials', path: '', url: 'http://54.163.156.108:8888/')], contextPath: null, war: 'target/*war'
+        deploy adapters: [tomcat9(credentialsId: 'Tomcat-Credentials', path: '', url: 'http://100.25.147.144:8888/')], contextPath: null, war: 'target/*war'
     }
 
     stage('6. Email Notification')
