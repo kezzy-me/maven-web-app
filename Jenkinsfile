@@ -11,11 +11,11 @@ def mavenHome = tool name: "maven3.6.3"
     {
         sh "${mavenHome}/bin/mvn clean package"
 
-        // bat mvn clean package  - for winows OS
+         //bat mvn clean package  - for winows OS
     }
     stage('3. SonarQubeReport')
     {
-         sh "${mavenHome}/bin/mvn sonar:sonar"
+         //sh "${mavenHome}/bin/mvn sonar:sonar"
     }
     stage('4. Nexus')
      {
