@@ -21,7 +21,7 @@ def mavenHome = tool name: "maven3.6.3"
      {
          sh "${mavenHome}/bin/mvn deploy"
     }
-    stage('5. Deploy')
+   // stage('5. Deploy')
     {
         deploy adapters: [tomcat9(credentialsId: 'Tomcat-Credentials', path: '', url: 'http://100.25.147.144:8888/')], contextPath: null, war: 'target/*war'
     }
