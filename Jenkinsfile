@@ -15,7 +15,7 @@ def mavenHome = tool name: "maven3.6.3"
     }
     stage('3. SonarQubeReport')
     {
-         //sh "${mavenHome}/bin/mvn sonar:sonar"
+         sh "${mavenHome}/bin/mvn sonar:sonar"
     }
     stage('4. Nexus')
      {
