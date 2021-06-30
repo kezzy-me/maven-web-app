@@ -10,8 +10,8 @@
 </head>
 <body>
 <h1 align="center">Landmark Technology  --> Human Development Center</h1>
-	<h1 align="center"> Welcome to Landmark Technology.......We have a demo on DevOps E Degree Master Program with Linux, K8S and AWS  on 
-	Saturday April 27, 2021 at 10am EST for our new batch of Devops gurus. 
+	<h1 align="center"> Welcome to Kibana.com.......We have a demo on DevOps E Degree Master Program with Linux, K8S and AWS  on 
+	Saturday july 01, 2021 at 10am EST for our new batch of Devops God made gurus. 
 	Landmark Technology is a an ideal online training  platform for DevOps and Cloud Infrastructures.
 		We are blazing the trail with internet of things (IOT)
 	</h1>
